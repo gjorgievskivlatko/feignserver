@@ -14,6 +14,7 @@ public class ItemServiceImplTest {
     public void test() {
         final Integer id = 10;
 
+        // test comment
         final ItemDTO item = itemService.getItemById(id);
 
         assertEquals(id, item.getPropertyInteger());
