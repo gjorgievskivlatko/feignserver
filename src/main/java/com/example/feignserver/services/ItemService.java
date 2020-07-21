@@ -1,8 +1,8 @@
 package com.example.feignserver.services;
 
-import com.example.feignserver.dtos.ItemDTO;
+import com.example.feignserver.dtos.ItemDto;
 
 public interface ItemService {
 
-    ItemDTO getItemById(final Integer id);
+    ItemDto getItemById(Integer id);
 }
